@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="secBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06090F"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#secBg)"/>
+
+  <!-- 4-Split Surveillance Monitor -->
+  <g transform="translate(100, 60)">
+    <rect width="600" height="380" rx="10" fill="#0D111A" stroke="#374151" stroke-width="2"/>
+    
+    <!-- Cam 1 (Warehouse Gate) -->
+    <rect x="15" y="15" width="275" height="165" rx="6" fill="#182030"/>
+    <text x="28" y="38" fill="#10B981" font-family="monospace" font-size="11">● CAM 01 [MAIN GATE] REC</text>
+    <circle cx="152" cy="100" r="30" fill="none" stroke="#0062FF" stroke-width="2" stroke-dasharray="4,4"/>
+    <text x="110" y="155" fill="#64748B" font-family="sans-serif" font-size="10">Target Tracking: Active</text>
+
+    <!-- Cam 2 (Server Room) -->
+    <rect x="310" y="15" width="275" height="165" rx="6" fill="#182030"/>
+    <text x="323" y="38" fill="#10B981" font-family="monospace" font-size="11">● CAM 02 [SERVER ROOM] REC</text>
+    <rect x="410" y="60" width="70" height="90" fill="#0F172A" stroke="#0062FF"/>
+
+    <!-- Cam 3 (Perimeter North) -->
+    <rect x="15" y="195" width="275" height="165" rx="6" fill="#182030"/>
+    <text x="28" y="218" fill="#10B981" font-family="monospace" font-size="11">● CAM 03 [NORTH PERIMETER] REC</text>
+
+    <!-- Cam 4 (Biometric Access Audit) -->
+    <rect x="310" y="195" width="275" height="165" rx="6" fill="#182030"/>
+    <text x="323" y="218" fill="#E60012" font-family="monospace" font-size="11">● BIOMETRIC ACCESS TERMINAL</text>
+    <text x="330" y="255" fill="#FFFFFF" font-family="sans-serif" font-size="12">15:42:01 — Door 01: Access Granted</text>
+    <text x="330" y="280" fill="#94A3B8" font-family="sans-serif" font-size="12">15:44:12 — Door 02: Access Granted</text>
+    <text x="330" y="305" fill="#3B82F6" font-family="sans-serif" font-size="12">15:47:33 — Server Room: Fingerprint Verified</text>
+  </g>
+</svg>

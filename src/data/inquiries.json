@@ -1,0 +1,17 @@
+[
+  {
+    "id": "DML-6529-5751",
+    "fullName": "Test Client",
+    "email": "client@example.com",
+    "phone": "+254 711 000 111",
+    "organization": "Nairobi Academy",
+    "category": "software",
+    "serviceId": "school-management-systems",
+    "serviceTitle": "School Management Systems",
+    "budgetRange": "KES 150,000 - 500,000",
+    "description": "We require an automated student grading and fee reconciliation system.",
+    "preferredContact": "whatsapp",
+    "createdAt": "2026-11-15T14:01:46.529Z",
+    "status": "new"
+  }
+]
